@@ -1,0 +1,19 @@
+﻿<Window x:Class="DoppelBot.ServerApplication.Windows.LogViewer"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoppelBot.ServerApplication.Windows"
+        mc:Ignorable="d"
+        Title="LogViewer" Height="768" Width="1024">
+    <Grid>
+        <TextBox x:Name="txtLog" HorizontalAlignment="Left" Height="624" Margin="10,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="996" IsEnabled="False"/>
+        <Button x:Name="btnResetDates" Content="Reset" HorizontalAlignment="Left" Margin="422,10,0,0" VerticalAlignment="Top" Width="76" Height="24"/>
+        <Button x:Name="btnFilter" Content="Filter" HorizontalAlignment="Left" Margin="342,10,0,0" VerticalAlignment="Top" Width="75" Height="24" Click="btnFilter_Click"/>
+        <xctk:DateTimePicker Name="dpFrom" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="24" Width="153" AllowSpin="False" AutoCloseCalendar="True" AllowTextInput="False" CultureInfo="es-ES"/>
+        <xctk:DateTimePicker Name="dpTo" HorizontalAlignment="Left" Margin="177,10,0,0" VerticalAlignment="Top" Height="24" Width="153" AllowSpin="False" AutoCloseCalendar="True" AllowTextInput="False" CultureInfo="es-ES"/>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Page x:Class="DoppelBot.ServerApplication.Pages.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DoppelBot.ServerApplication.Pages"
+      mc:Ignorable="d"
+      Title="HomePage" Height="363.329" Width="645.012">
+
+    <Grid Background="Azure" Margin="0,0,20,23">
+        <Label x:Name="label" Content="DoppelBot Configuration Center" HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBlock x:Name="linkConnectionPage" HorizontalAlignment="Left" Margin="135,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36">
+            <Hyperlink NavigateUri="LogAndConnect.xaml">1. Connection Page</Hyperlink>
+        </TextBlock>
+        <TextBlock x:Name="txtConnectionConfiguration" HorizontalAlignment="Left" Margin="78,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Width="492">
+            <Hyperlink NavigateUri="ConnectionConfiguration.xaml">2. Connection Configuration</Hyperlink>
+        </TextBlock>
+        <TextBlock x:Name="linkHelp" HorizontalAlignment="Left" Margin="227,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36">
+            <Hyperlink NavigateUri="Help.xaml">3. Help</Hyperlink>
+        </TextBlock>
+    </Grid>
+</Page>

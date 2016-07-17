@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoppelBot.EZRobot", "DoppelBot.EZRobot\DoppelBot.EZRobot.csproj", "{574CE5E4-D18B-4FAC-AF94-C432CB71587E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoppelBot.WiiMote", "DoppelBot.WiiMotes\DoppelBot.WiiMote.csproj", "{47C5B480-A757-47AF-A8BC-E6DA40968323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoppelBot.RTSP", "DoppelBot.RTSP\DoppelBot.RTSP.csproj", "{0923BEBB-023D-4319-95C3-49097E498F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoppelBot.App", "DoppelBot.App\DoppelBot.App.csproj", "{06634067-37B5-4F79-8D55-C9EE09FA88C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoppelBot.ServerApplication", "DoppelBot.ServerApplication\DoppelBot.ServerApplication.csproj", "{E9F63BDD-02B5-4EB0-9648-679F3CC74CBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{574CE5E4-D18B-4FAC-AF94-C432CB71587E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574CE5E4-D18B-4FAC-AF94-C432CB71587E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574CE5E4-D18B-4FAC-AF94-C432CB71587E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{574CE5E4-D18B-4FAC-AF94-C432CB71587E}.Debug|x86.Build.0 = Debug|Any CPU
+		{574CE5E4-D18B-4FAC-AF94-C432CB71587E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574CE5E4-D18B-4FAC-AF94-C432CB71587E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574CE5E4-D18B-4FAC-AF94-C432CB71587E}.Release|x86.ActiveCfg = Release|Any CPU
+		{574CE5E4-D18B-4FAC-AF94-C432CB71587E}.Release|x86.Build.0 = Release|Any CPU
+		{47C5B480-A757-47AF-A8BC-E6DA40968323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C5B480-A757-47AF-A8BC-E6DA40968323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C5B480-A757-47AF-A8BC-E6DA40968323}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{47C5B480-A757-47AF-A8BC-E6DA40968323}.Debug|x86.Build.0 = Debug|Any CPU
+		{47C5B480-A757-47AF-A8BC-E6DA40968323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C5B480-A757-47AF-A8BC-E6DA40968323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C5B480-A757-47AF-A8BC-E6DA40968323}.Release|x86.ActiveCfg = Release|Any CPU
+		{47C5B480-A757-47AF-A8BC-E6DA40968323}.Release|x86.Build.0 = Release|Any CPU
+		{0923BEBB-023D-4319-95C3-49097E498F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0923BEBB-023D-4319-95C3-49097E498F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0923BEBB-023D-4319-95C3-49097E498F4F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0923BEBB-023D-4319-95C3-49097E498F4F}.Debug|x86.Build.0 = Debug|Any CPU
+		{0923BEBB-023D-4319-95C3-49097E498F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0923BEBB-023D-4319-95C3-49097E498F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0923BEBB-023D-4319-95C3-49097E498F4F}.Release|x86.ActiveCfg = Release|Any CPU
+		{0923BEBB-023D-4319-95C3-49097E498F4F}.Release|x86.Build.0 = Release|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Release|x86.Build.0 = Release|Any CPU
+		{06634067-37B5-4F79-8D55-C9EE09FA88C7}.Release|x86.Deploy.0 = Release|Any CPU
+		{E9F63BDD-02B5-4EB0-9648-679F3CC74CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F63BDD-02B5-4EB0-9648-679F3CC74CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F63BDD-02B5-4EB0-9648-679F3CC74CBC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E9F63BDD-02B5-4EB0-9648-679F3CC74CBC}.Debug|x86.Build.0 = Debug|Any CPU
+		{E9F63BDD-02B5-4EB0-9648-679F3CC74CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F63BDD-02B5-4EB0-9648-679F3CC74CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F63BDD-02B5-4EB0-9648-679F3CC74CBC}.Release|x86.ActiveCfg = Release|Any CPU
+		{E9F63BDD-02B5-4EB0-9648-679F3CC74CBC}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rodriguezalejandroe.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DoppelBot.App\\DoppelBot.App.csproj
+		SccProjectName1 = DoppelBot.App
+		SccLocalPath1 = DoppelBot.App
+		SccProjectUniqueName2 = DoppelBot.EZRobot\\DoppelBot.EZRobot.csproj
+		SccProjectName2 = DoppelBot.EZRobot
+		SccLocalPath2 = DoppelBot.EZRobot
+		SccProjectUniqueName3 = DoppelBot.RTSP\\DoppelBot.RTSP.csproj
+		SccProjectName3 = DoppelBot.RTSP
+		SccLocalPath3 = DoppelBot.RTSP
+		SccProjectUniqueName4 = DoppelBot.WiiMotes\\DoppelBot.WiiMote.csproj
+		SccProjectName4 = DoppelBot.WiiMotes
+		SccLocalPath4 = DoppelBot.WiiMotes
+		SccProjectUniqueName5 = DoppelBot.ServerApplication\\DoppelBot.ServerApplication.csproj
+		SccProjectName5 = DoppelBot.ServerApplication
+		SccLocalPath5 = DoppelBot.ServerApplication
+	EndGlobalSection
+EndGlobal

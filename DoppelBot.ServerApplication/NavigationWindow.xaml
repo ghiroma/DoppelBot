@@ -1,0 +1,19 @@
+﻿<NavigationWindow x:Class="DoppelBot.ServerApplication.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoppelBot.ServerApplication"
+        mc:Ignorable="d"
+        Title="Navigation" Height="768" Width="1024" Source="Pages/HomePage.xaml">
+    <NavigationWindow.Content>
+        <Grid>
+            <Menu x:Name="menu" HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="1016">
+                <MenuItem Name="LogAndConnectMenuItem" Header="Log and Connect" Click="LogAndConnectMenuItem_Click"></MenuItem>
+                <MenuItem Name="ConnectionConfigMenuItem" Header="Connections Configs" Click="ConnectionConfigMenuItem_Click"></MenuItem>
+                <MenuItem Name="HelpMenuItem" Header="Help" Click="HelpMenuItem_Click"></MenuItem>
+            </Menu>
+            <Frame Name="appContent"/>
+        </Grid>
+    </NavigationWindow.Content>
+</NavigationWindow>

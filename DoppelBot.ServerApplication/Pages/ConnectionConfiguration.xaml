@@ -1,0 +1,26 @@
+﻿<Page x:Class="DoppelBot.ServerApplication.Pages.ConnectionConfiguration"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DoppelBot.ServerApplication.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="ConnectionConfiguration">
+
+    <Grid Background="White" Margin="0,0,-530,-397" KeyDown="Grid_KeyDown">
+        <Label x:Name="label" Content="Left Wiimote Connection Status" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Right Wiimote Connection Status" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="HeadSet Connection Status" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Smartphone Connection Status" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="DoppelBot Connection Status" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDoppelBotIP" HorizontalAlignment="Left" Height="23" Margin="176,134,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblLeftWiimoteStatus" Content="Offline" HorizontalAlignment="Left" Margin="245,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblRightWiimoteStatus" Content="Offline" HorizontalAlignment="Left" Margin="245,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblHeadsetStatus" Content="Offline" HorizontalAlignment="Left" Margin="245,72,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblSmartphoneStatus" Content="Offline" HorizontalAlignment="Left" Margin="245,103,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkDoppelbotConnection" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="301,137,0,0" VerticalAlignment="Top" Height="23" Width="21" ToolTip="Click to connect/disconnect" Checked="chkDoppelbotConnection_Checked"/>
+        <WindowsFormsHost x:Name="windowsFormsHost" HorizontalAlignment="Left" Height="480" Margin="82,180,0,0" VerticalAlignment="Top" Width="640"/>
+
+    </Grid>
+</Page>
